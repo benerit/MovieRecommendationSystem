@@ -1,0 +1,13 @@
+name: bene.tf
+channels:
+- conda-forge
+dependencies:
+  - python==3.9.5
+  - numpy
+  - pip
+  - pip:
+    - tensorflow==2.7.0
+    - pandas
+    - matplotlib
+    - sklearn
+    - tabulate
